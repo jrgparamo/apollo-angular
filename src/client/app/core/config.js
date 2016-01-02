@@ -13,7 +13,7 @@
 
     var config = {
         appErrorPrefix: '[NG-Modular Error] ', //Configure the exceptionHandler decorator
-        appTitle: 'Apollo',
+        appTitle: 'Apollo Music App',
         version: '1.0.0'
     };
 

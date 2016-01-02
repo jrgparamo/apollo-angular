@@ -1295,3 +1295,13 @@ form label {
     width: 100%;
     text-align: center;
 }
+
+#log-in {
+    background-color: #34495e;
+    color: white;
+}
+
+#sign-up {
+     background-color: #9b59b6;
+     color: white;
+ }
