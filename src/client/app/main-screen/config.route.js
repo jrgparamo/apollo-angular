@@ -22,11 +22,11 @@
                     templateUrl: 'app/main-screen/main.html',
                     controller: 'Main',
                     controllerAs: 'vm',
-                    title: 'Main Screen'
-                    //settings: {
-                    //    nav: 1,
-                    //    content: '<i class="fa fa-lock"></i> Main Screen'
-                    //}
+                    title: 'Main Screen',
+                    settings: {
+                        nav: 1,
+                        content: '<i class="fa fa-lock"></i> Main Screen'
+                    }
                 }
             }
         ];

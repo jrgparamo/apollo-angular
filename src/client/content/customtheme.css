@@ -789,6 +789,7 @@ form label {
     margin-left: 230px;
     margin-right: 0;
     width: auto;
+    height: 100%;
     min-height: 900px;
 }
 
@@ -1283,12 +1284,14 @@ form label {
 #main-view {
     background: url(images/above/pix_7.JPG) no-repeat center center;
     background-size: cover;
+    margin-left: 0px;
     /*background-origin: content-box;*/
     /*background-color: #e67e22;*/
 }
 
 #party-code {
     margin: 4px 4px;
+    max-width: 40em;
     width: 100%;
     text-align: center;
 }
