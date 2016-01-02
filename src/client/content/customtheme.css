@@ -1080,8 +1080,8 @@ form label {
     }
 
     .content {
-        margin-left: -20px;
-        margin-right: -20px;
+        /*margin-left: -20px;*/
+        /*margin-right: -20px;*/
     }
 
     .mainbar .matter {
@@ -1282,7 +1282,7 @@ form label {
 /*Jorge's additions*/
 /*Main View Styles*/
 #main-view {
-    background: url(images/above/stock.jpg) no-repeat left top;
+    background: url(images/bg/9.jpg) no-repeat center center;
     background-size: cover;
     margin-left: 0px;
     /*background-origin: content-box;*/
@@ -1290,6 +1290,35 @@ form label {
 }
 
 #party-code {
+    margin: 4px 4px;
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+#log-in {
+    background-color: #34495e;
+    color: white;
+}
+
+#sign-up {
+    color: white;
+ }
+
+/*Login Screen*/
+#login-screen {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.input-user {
+    margin: 4px 4px;
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.input-password {
     margin: 4px 4px;
     max-width: 100%;
     width: 100%;

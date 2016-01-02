@@ -72,7 +72,7 @@
 
             function success() {
                 isPrimed = true;
-                logger.info('Primed data');
+                logger.info('Primed data', null);
             }
         }
 

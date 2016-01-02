@@ -21,6 +21,7 @@
          * Feature areas
          */
         'app.mainScreen',
+        'app.loginScreen',
         'app.avengers',
         'app.dashboard',
         'app.layout'
