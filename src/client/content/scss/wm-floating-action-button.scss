@@ -1,0 +1,86 @@
+.float-button {
+  background-color: $energized;
+  color: $base-color;
+  border-radius: 56px;
+  height: 56px;
+  width: 56px;
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  z-index: 100;
+  @include display-flex();
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid #999999;
+  font-size: 24px;
+  @include transition(background-color 0.2s ease-in);
+  padding: 0;
+}
+
+.float-button.activated {
+  background-color: darken($energized, 15%);
+}
+
+.float-button .icon {
+  @include flex(1);
+  margin: auto;
+  display: block;
+}
+
+.float-options {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  text-align: right;
+  width: 100%;
+}
+
+.float-option {
+  @include display-flex();
+  padding-top: 16px;
+  opacity: 0;
+  @include transition(-webkit-transform 0.2s ease-in, opacity 0.2s ease-in);
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding-left: 16px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.float-options.in .float-option {
+  opacity: 1;
+}
+
+.float-options.in .float-option:nth-child(2) {
+  -webkit-transform: translate3d(0, -100%, 0);
+}
+
+.float-option-desc {
+  padding-right: 8px;
+  margin: auto;
+  margin-right: 0px;
+  @include transition(-webkit-transform 0.1s ease-in 0.1s);
+  -webkit-transform: translate3d(100%, 0, 0);
+}
+
+.float-options.in .float-option-desc {
+  -webkit-transform: translate3d(0, 0, 0);
+}
+
+
+.float-option .float-button {
+  position: static;
+  @include flex(1);
+}
+
+.float-button.fly {
+  @include transition(-webkit-transform 0.4s ease-in, opacity 0.5s ease-in);
+}
+
+.float-button.fly.in {
+  -webkit-transform: translate3d(0, -600px, 0);
+  opacity: 0.2;
+}

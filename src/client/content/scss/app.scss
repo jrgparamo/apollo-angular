@@ -1,0 +1,35 @@
+@import "wm-variable-overrides";
+
+@import "colors-wm";
+//@import "colors-nhm";
+//@import "colors-sams";
+//@import "colors-asda";
+
+@import "ionic/ionic";
+
+@import "wm-base";
+@import "wm-side-menu";
+@import "wm-snackbar";
+@import "wm-search-bar";
+@import "wm-floating-action-button";
+@import "wm-context-menu";
+@import "wm-bpm-login-view";
+
+/* application SASS/CSS starts here */
+
+
+ion-content.item-lookup {
+  background-color: $stable;
+}
+
+.color-viewer ion-item.stable{
+  background-color: $dark;
+
+  p {
+    color: $stable;
+  }
+}
+
+
+
+

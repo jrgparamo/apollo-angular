@@ -1,0 +1,74 @@
+
+.side-menu-header {
+  background-color: $royal;
+  height: 136px;
+}
+
+.side-menu-main-icon {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+
+.side-menu-main-icon img {
+  max-height: 56px;
+  max-width: 56px;
+}
+
+.side-menu-sub-icon {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+.side-menu-user {
+  margin-left: 1em;
+  color: white;
+  font-weight: 400;
+  position: absolute;
+  top: 80px;
+}
+
+.side-menu-store {
+  font-size: 14px;
+  margin-left: 1.2em;
+  color: white;
+  position: absolute;
+  top: 100px;
+  width: 100%;
+}
+
+.side-menu-store a,
+.side-menu-store a:hover,
+.side-menu-store a:visited {
+  text-decoration: underline;
+  color: white;
+}
+
+.side-menu-options {
+}
+
+.side-menu-option {
+  border: none;
+  font-size: 0.875em;
+}
+
+.side-menu-option.item-avatar .item-content {
+  @include display-flex();
+
+  div {
+    margin: auto 0;
+  }
+}
+
+
+.side-menu-option .icon {
+  font-size: 1.5em;
+}
+
+.side-menu-divider {
+  height: 3px;
+  background-color: $item-divider-bg;
+}
+
+

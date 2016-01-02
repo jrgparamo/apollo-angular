@@ -1,0 +1,39 @@
+.tooltip {
+  position: fixed;
+  bottom: 16px;
+  right: 88px;
+  width: 116px;
+  @include transition(opacity 0.2s ease-in);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.tooltip.in {
+  opacity: 1;
+}
+
+.tooltip-msg {
+  padding: 8px;
+  text-align: center;
+  background-color: $positive;
+  color: $light;
+  border-radius: 3px;
+}
+
+.tooltip-pointer {
+  position: absolute;
+  right: -11px;
+  top: 0;
+  bottom: 0;
+  @include display-flex();
+  width: 12px;
+}
+
+.tooltip-pointer svg {
+  height: 12px;
+  margin: auto;
+}
+
+.tooltip-pointer polygon {
+  fill: $positive;
+}

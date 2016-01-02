@@ -1,0 +1,28 @@
+.snackbar {
+  background-color: #323232;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 15;
+  font-size: 14px;
+  padding: 14px 24px;
+  @include transition(-webkit-transform 0.2s ease-in);
+  -webkit-transform: translate3d(0, 100%, 0);
+  @include display-flex();
+
+  &.in {
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+
+  .action {
+    color: $energized;
+    text-align: center;
+    @include flex(0, 0, auto);
+    margin: auto;
+    padding-left: 24px;
+  }
+
+}
+
