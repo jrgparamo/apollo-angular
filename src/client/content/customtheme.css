@@ -84,8 +84,8 @@ body .container {
 h1, h2, h3, h4, h5, h6 {
     padding: 2px 0;
     margin: 2px 0;
-    /*color: #777;*/
-    color: #fff;
+    color: #777;
+    /*color: #fff;*/
     font-weight: 400;
 }
 
@@ -1282,7 +1282,7 @@ form label {
 /*Jorge's additions*/
 /*Main View Styles*/
 #main-view {
-    background: url(images/above/pix_7.JPG) no-repeat center center;
+    background: url(images/above/stock.jpg) no-repeat left top;
     background-size: cover;
     margin-left: 0px;
     /*background-origin: content-box;*/
@@ -1291,7 +1291,7 @@ form label {
 
 #party-code {
     margin: 4px 4px;
-    max-width: 40em;
+    max-width: 100%;
     width: 100%;
     text-align: center;
 }
