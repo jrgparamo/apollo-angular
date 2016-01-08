@@ -30,6 +30,7 @@
             logger.info("User Details", vm.creds, "Printed");
             //logger.log(vm.creds);
         }
+        
         // TODO: Refactor to call a dataservice for real login check database
         function login() {
 
