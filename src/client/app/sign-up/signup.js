@@ -18,7 +18,7 @@
 		////////////////
 		
 		function activate() {
-			logger.success('Activated Sign Up Screen View');
+			logger.success('Activated Sign Up Screen Viedfdffw');
 		}
 			
 	}
