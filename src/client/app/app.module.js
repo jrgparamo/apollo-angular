@@ -22,6 +22,7 @@
          */
         'app.mainScreen',
         'app.loginScreen',
+        'app.signUp',
         'app.avengers',
         'app.dashboard',
         'app.layout'
