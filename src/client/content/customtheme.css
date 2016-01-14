@@ -2068,7 +2068,7 @@ form label {
     margin-right: 0;
     width: auto;
     height: 100%;
-    min-height: 900px;
+    min-height: 1000px;
 }
 
 .mainbar .container {
@@ -2572,15 +2572,20 @@ form label {
     max-width: 100%;
     width: 100%;
     text-align: center;
+    border-color: #111;
 }
 
 #log-in {
     background-color: #34495e;
     color: white;
+    margin: 5px 5px;
+    border-color: #111;
 }
 
 #sign-up {
     color: white;
+    margin: 5px 5px;
+    border-color: #111;
  }
 
 /*Login Screen*/
@@ -2616,14 +2621,17 @@ form label {
 .demo-content{
     padding: 15px;
     font-size: 18px;
-    min-height: 300px;
+    min-height: 250px;
     background: #dbdfe5;
     margin-bottom: 10px;
+    margin-top: 15%;
     display: none;
 }
 .demo-content.bg-alt{
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
     /*background: #abb1b8;*/
-    background: none;
+    /*background: none;*/
     display: block;
 }
 
