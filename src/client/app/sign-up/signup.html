@@ -9,12 +9,13 @@
                     <div class="col-md-4">
                         <div class="demo-content bg-alt">
                             <h2>Sign Up</h2>
-                            <input id="user" type="text" class="form-control input-user regs" placeholder="Email" ng-model="vm.new.user"><br>
-                            <input id="user" type="text" class="form-control input-user regs" placeholder="Confirm Email" ng-model="vm.creds.user"><br><br>
-                            <input id="user" type="text" class="form-control input-user regs" placeholder="Username" ng-model="vm.creds.user"><br>
+                            <hr>
+                            <input id="user" type="text" class="form-control input-user regs" placeholder="Email" ng-model="vm.newUser.email"><br>
+                            <input id="user" type="text" class="form-control input-user regs" placeholder="Confirm Email" ng-model="vm.newUser.emailConfirm"><br><br>
+                            <input id="user" type="text" class="form-control input-user regs" placeholder="Enter a username" ng-model="vm.creds.user"><br>
                             <input id="password" type="password" class="form-control input-password regs" placeholder="Password" ng-model="vm.creds.pass"><br>
                             <input id="password" type="password" class="form-control input-password regs" placeholder="Confirm Password" ng-model="vm.creds.pass">
-                            <button class="btn btn-warning btn-block btn-lg" type="submit" ng-click="vm.printCreds()">Submit</button>
+                            <button id="signup-submit" class="btn btn-warning btn-block btn-lg" type="submit" ng-click="vm.printCreds()">Submit</button>
                         </div>
                     </div>
                     <div class="col-md-4">
